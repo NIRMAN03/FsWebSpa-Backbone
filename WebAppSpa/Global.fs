@@ -23,7 +23,7 @@ type BundleConfig() =
                                      "~/Scripts/backbone.js",
                                      "~/Scripts/toastr.js"))
 
-        bundles.Add(ScriptBundle("~/bundles/localApp").Include(
+        bundles.add(ScriptBundle("~/bundles/localApp").Include(
                                      "~/Scripts/app/main.js",
                                      "~/Scripts/app/utility.js",
                                      "~/Scripts/models/*.js",
